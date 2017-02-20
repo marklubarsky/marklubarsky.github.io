@@ -351,11 +351,11 @@ a.action-button-primary {
         filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='mg/mobile-banner-700x300.jpg', sizingMethod='scale');
 
         background-size:contain;
-        background-position:top 6em center;
+        background-position:top 4em center;
         text-align: center;
         padding-bottom: 42.8571428571429%;
-        margin-top: 2em;
-        /*margin-bottombottom: 2em;*/
+        margin-top: 1.5em;
+        margin-bottom: 0;
     }
 
     #banner.x {
@@ -365,7 +365,7 @@ a.action-button-primary {
 
 
     .content-head h1 {
-        margin: 0.2em 0;
+        /*margin: 0.2em 0;*/
         font-size: 2em;
         font-weight: 300;
         line-height: 1.7em;
