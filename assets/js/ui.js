@@ -20,9 +20,18 @@
         else {
             toggleHorizontal();
         }
+
+        [].forEach.call(
+            document.getElementById('menu').querySelectorAll('.menu-can-transform'),
+            function(el){
+                el.classList.toggle('open');
+            }
+        );
+
         menu.classList.toggle('open');
         document.getElementById('toggle').classList.toggle('x');
         document.getElementById('content-wrapper').classList.toggle('x');
+        document.getElementsByClassName('content-wrapper').classList.toggle('x');
     };
 
     function closeMenu() {
