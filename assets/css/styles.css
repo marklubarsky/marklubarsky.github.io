@@ -109,7 +109,7 @@ a.action-button-primary {
     margin: 0;
 }
 
-.action-link.regular a {
+span.action-link.regular, .action-link.regular a {
     color: darkgrey;
     font-size: 1em;
     margin: 0;
