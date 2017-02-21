@@ -22,8 +22,10 @@
         }
         menu.classList.toggle('open');
         document.getElementById('toggle').classList.toggle('x');
-        document.getElementById('banner').classList.toggle('x');
         document.getElementById('content-wrapper').classList.toggle('x');
+        if (document.getElementById('banner') != null) {
+            document.getElementById('banner').classList.toggle('x');
+        }
     };
 
     function closeMenu() {
