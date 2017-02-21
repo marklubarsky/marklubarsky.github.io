@@ -248,13 +248,16 @@ span.action-link.regular, .action-link.regular a {
 
 
 .menu-wrapper.open {
-    height: 20em;
+    height: 16em;
     /*top:54px;*/
     background: #F7F7F3;
-    border-radius: 3px;
-    position:relative;
-    /*z-index:99;*/
+    border: 1px solid #E9E8DC;
+    opacity: 0.9;
+    position:fixed;
+    width:100%;
+    z-index:99;
     text-align: center;
+    /*z-index:99;*/
 }
 
 .menu {
