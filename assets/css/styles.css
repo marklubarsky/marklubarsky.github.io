@@ -340,10 +340,14 @@ span.action-link.regular, .action-link.regular a {
 /*
  * Non- desktop: close menu
  */
-@media (max-width: 47.999em) {
+@media (max-width: 64em) {
 
     .menu-toggle {
         display: block;
+    }
+
+    #menu .pure-menu-horizontal {
+        padding: 1em;
     }
 
     .right-menu .left-menu{
