@@ -340,7 +340,7 @@ span.action-link.regular, .action-link.regular a {
 /*
  * Non- desktop: close menu
  */
-@media (max-width: 47.999em) {
+@media (max-width: 87.999em) {
 
     .menu-toggle {
         display: block;
