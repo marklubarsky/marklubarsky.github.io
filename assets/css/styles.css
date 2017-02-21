@@ -228,21 +228,6 @@ span.action-link.regular, .action-link.regular a {
     border: 1px solid #E9E8DC;
 }
 
-#banner {
-
-    position: relative;
-    background: transparent url('/assets/css/img/desktop-banner-1400x360.jpg') 0 0 no-repeat fixed;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/css/img/desktop-banner-1400x360.jpg', sizingMethod='scale');
-
-    background-size:contain;
-    background-position:top 6em center;
-    text-align: center;
-    padding-bottom: 25.7142857142857%;
-    margin-top: 4em;
-    margin-bottom: 2em;
-
-}
-
 .img-area {
     margin: 2em 2em 2em 2em;
 }
@@ -347,28 +332,11 @@ span.action-link.regular, .action-link.regular a {
     }
 
     #menu .pure-menu-horizontal {
-        padding: 1em;
+        padding: 2em;
     }
 
     .right-menu .left-menu{
         text-align: center;
-    }
-
-    #banner {
-
-        background: transparent url('/assets/css/img/mobile-banner-700x300.jpg') 0 0 no-repeat fixed;
-        filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='mg/mobile-banner-700x300.jpg', sizingMethod='scale');
-
-        background-size:contain;
-        background-position:top 4em center;
-        text-align: center;
-        padding-bottom: 42.8571428571429%;
-        margin-top: 1.5em;
-        margin-bottom: 0;
-    }
-
-    #banner.x {
-        display: none;
     }
 
     #content-wrapper {
