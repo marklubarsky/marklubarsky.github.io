@@ -331,7 +331,7 @@ span.action-link.regular, .action-link.regular a {
         display: block;
     }
 
-    .menu-can-transform.open {
+    .menu-wrapper.open .menu-can-transform {
         position:fixed;
         top: 3em;
         text-align: center;
