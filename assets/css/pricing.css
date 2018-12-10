@@ -18,7 +18,11 @@
  * -- PRICING TABLE HEADER COLORS --
  * Choose a different color based on the type of pricing table.
  */
-.pricing-table-private .pricing-table-header {
+.pricing-table-private-olga .pricing-table-header {
+    background: #800080;
+}
+
+.pricing-table-private-mark .pricing-table-header {
     background: #519251;
 }
 
@@ -30,7 +34,11 @@
     background: #B53C3C;
 }
 
-.pricing-table-private .button-choose {
+.pricing-table-private-olga .button-choose {
+    background: #800080;
+}
+
+.pricing-table-private-mark .button-choose {
     background: #519251;
 }
 
@@ -41,6 +49,7 @@
 .pricing-table-promo .button-choose {
     background: #B53C3C;
 }
+
 
 /*
  * -- PRICING TABLE HEADER --
@@ -84,6 +93,10 @@
     padding: 0.8em 0;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.pricing-table-list li span {
+    font-size: 90%;
 }
 
 
